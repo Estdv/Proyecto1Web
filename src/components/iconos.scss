@@ -1,0 +1,102 @@
+@import "~animate.css/animate.css";
+.iconos a{
+    float: left;
+    color: white;
+    text-align: left;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-right: 75%;
+    margin-left: 10px;
+    width: 90%;
+    
+}
+
+.iconos a:hover{
+    text-decoration: underline;
+}
+
+
+table{
+    margin-left: 10px;
+    width: min-content;
+    
+}
+
+th{
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top: 15px;
+    font-family: sans-serif;
+    color:white;
+    background-color:#1c1d1d;
+    font-size:14px;
+}
+
+h5{
+    margin-top: -15px;
+    color:#c0c0c0;
+    width: auto;
+    
+}
+h6{
+    float: none;
+    color: white;
+    text-align: left;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-top: 0%;
+    margin-right: 75%;
+    width: 90%; 
+}
+
+
+
+table tbody th img{
+    width: 170px;
+    height: 170px;
+}
+
+th:hover{
+    background-color: #292b2b;
+}
+
+.boton{
+    display: none;
+}
+
+th:hover > .boton{
+    display: block;
+    position: absolute;
+    margin-left:125px;
+    margin-top: -125px;
+    width:35px;
+    height:35px;
+    background-color: #1DB954;
+    opacity: 90%;
+    border-radius: 50%;
+}
+
+.boton:hover{
+    animation-name: pulse;
+    animation-duration: 1s;
+}
+
+.boton::before{
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 0;
+    height: 10px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid white;
+    top: 5px;
+    left: 10px;
+    opacity: 85%;
+}
+
+

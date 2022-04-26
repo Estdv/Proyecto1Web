@@ -1,0 +1,18 @@
+
+body{
+  background-color: black;
+  
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 220px 380pxpx 300px ;
+    grid-template-rows: 70px ;
+    gap: 0px 0px;
+    grid-template-areas:
+      "SideBar TopBar TopBar TopBar"
+      "SideBar Tablero Tablero Tablero"
+      "SideBar Tablero Tablero Tablero";
+  }
+  .SideBar { grid-area: SideBar; }
+  .TopBar { grid-area: TopBar; }
+  .Tablero { grid-area: Tablero; }

@@ -1,0 +1,66 @@
+
+@import "~animate.css/animate.css";
+
+.topnav {
+    background-color: rgb(19, 19, 19);
+    overflow: hidden;
+    height:70px;
+    width: 126.5%;
+    margin-left: -26%;
+  }
+
+  
+  .topnav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+
+  .ward{
+    font-size: 40px;
+    color: #c0c0c0;
+    
+  }
+
+  .ward:hover{
+    text-shadow:1px 1px 5px white;
+  }
+
+  .reg{
+      margin-left: 75%;
+      font-size: 14px;
+      margin-top: 10px;
+      color: #c0c0c0;
+    
+      
+  }
+
+  .log{
+      background-color: white;
+      border-radius: 50px;
+      width: 4%;
+      font-size: 14px;
+      margin-top: 10px;
+      color: black;
+    
+  }
+
+
+  .reg:hover{
+    animation-name: pulse;
+    animation-duration: 0.5s;
+    color:black;
+  }
+
+
+  .log:hover{
+    animation-name: pulse;
+    animation-duration: 0.5s;
+    color:black;
+  }
+
+
+
+  
